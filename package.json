@@ -1,5 +1,5 @@
 {
-  "name": "erollcall-library",
+  "name": "@YashBagriGDD/erollcall-library",
   "version": "1.0.0",
   "description": "Made with create-react-library",
   "author": "YashBagriGDD",
@@ -24,9 +24,9 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0",
     "@ionic/react": "^6.0.2",
-    "ionicons": "^6.0.0"
+    "ionicons": "^6.0.0",
+    "react": "^16.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -61,9 +61,14 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "@ionic/react": "^6.0.2"
+    "@ionic/react": "^6.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.2.1"
   },
   "files": [
     "dist"
-  ]
+  ],
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/YashBagriGDD"
+  }
 }
